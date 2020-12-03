@@ -20,7 +20,7 @@ Loads model specified in def sim
 
 def sim():
     total_games = 0
-    my_model = keras.models.load_model('c4_model')
+    my_model = keras.models.load_model('c4_model_l')
 
     score_board = { "AI"        : 0, 
                     "Player 2"  : 0}

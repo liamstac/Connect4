@@ -20,7 +20,7 @@ Prints number of wins, specify number_sims
 #simulate a given amount of games with AI, player or random
 number_sims=100
 def sim(number_sims):
-    my_model = keras.models.load_model('c4_model')
+    my_model = keras.models.load_model('c4_model_l')
 
     score_board = { "AI"        : 0, 
                     "Player 2"  : 0}
